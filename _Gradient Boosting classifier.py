@@ -34,7 +34,7 @@ X_scaled
 # In[19]:
 
 
-x_train, X_test, y_train, y_test = train_test_split(X_scaled,y, test_size = 0.8, random_state = 42)
+x_train, X_test, y_train, y_test = train_test_split(X_scaled,y, test_size = 0.2, random_state = 42)
 
 
 # In[27]:
